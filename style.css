@@ -27,6 +27,7 @@
 }
 
 .container, img {
+    
     display: flex;
     justify-content: center;
     justify-content: space-around;
@@ -159,8 +160,14 @@
                 align-items: center;
                 justify-content: space-around;
                 font-size: 12px;
-                padding:0rem 3rem
+                
 
+            }
+            
+            .rida{
+                display: flex;
+            flex-direction: row;
+            gap: 100px;
             }
 
         .rida1{
@@ -177,55 +184,76 @@
 
         .box1 {
             
-            border: solid black 1px;
-            width: 80%;
-            height: 500px;
-            background-color: bisque;
+            
+            width: 588px ;
+            height: 313px;
         }
 
         .box2 {
             
-            border: solid black 1px;
-            width: 282px;
-            height: 166px;
-            background-color: aquamarine;
+            
+            width: 588px ;
+            height: 313px;
+            
         }
         .box3 {
             
-            border: solid black 1px;
+            
             width: 282px;
             height: 166px;
-            background-color: aquamarine;
+            
             
         }.box4 {
             
-            border: solid black 1px;
+            
             width: 282px;
             height: 166px;
-            background-color: aquamarine;   
+               
         }.box5 {
             
-            border: solid black 1px;
+            
             width: 282px;
             height: 166px;
+            
         } .box6 {
             
-            border: solid black 1px;
+            
             width: 282px;
             height: 166px;
+            
         } .box7 {
             
-            border: solid black 1px;
+            
             width: 282px;
             height: 166px;
+            background-color: green;
         } .box8 {
             
             border: solid black 1px;
             width: 282px;
             height: 166px;
+            background-color: green;
         } .box9 {
-            
             border: solid black 1px;
             width: 282px;
             height: 166px;
-        } 
+            background-color: green;
+            
+            
+        }
+        .box10 {
+            border: solid black 1px;
+            width: 282px;
+            height: 166px;
+            background-color: green;
+        }
+        .pilt1{
+            
+           
+            width: 100% ;
+            height: 100%;
+        }
+        .pilt2{
+            width: 100%;
+            height: 100%;
+        }
